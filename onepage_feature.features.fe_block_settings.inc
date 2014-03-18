@@ -40,12 +40,6 @@ function onepage_feature_default_fe_block_settings() {
         'theme' => 'onepage_theme',
         'weight' => 0,
       ),
-      'zurb_foundation' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zurb_foundation',
-        'weight' => 0,
-      ),
     ),
     'title' => '',
     'visibility' => 0,
@@ -79,15 +73,9 @@ function onepage_feature_default_fe_block_settings() {
         'theme' => 'onepage_theme',
         'weight' => 0,
       ),
-      'zurb_foundation' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zurb_foundation',
-        'weight' => 0,
-      ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-slideshow-slideshow_block'] = array(
@@ -97,7 +85,7 @@ function onepage_feature_default_fe_block_settings() {
     'delta' => 'slideshow-slideshow_block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'adminimal' => array(
@@ -118,15 +106,9 @@ function onepage_feature_default_fe_block_settings() {
         'theme' => 'onepage_theme',
         'weight' => 0,
       ),
-      'zurb_foundation' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zurb_foundation',
-        'weight' => 0,
-      ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   return $export;
