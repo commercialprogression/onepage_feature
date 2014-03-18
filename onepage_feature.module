@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the onepage feature feature.
+ */
+
+include_once 'onepage_feature.features.inc';
